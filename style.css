@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    /* background: rgb(177,124,133); */
+    background: rgb(63,56,71);
+}
+.first{
+    width: 20%;
+}
+
+.logo_image{
+    border-radius: 50%;
+    width: 100%;
+    height: 200px;
+    
+}
+
+.second{
+    background: url("./img/bg5.jpg");
+    background-size: cover;
+    background-position: 0px -280px ;
+    width: 80%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-repeat: no-repeat;
+    /* background-position: top center; */
+    /* margin-top: 30px; */
+
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(230,169,167);
+    font-size: larger;
+}
+ul{
+    margin: 0px auto;
+    text-align: center;
+}
+li{
+    padding: 10px ;
+}
+/* .logo{
+    background: url("./img/dressprologo.png");
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+} */
+
+a:hover{
+    color: whitesmoke;
+}
+.crop_top, .smocked_top, .off_shoulder, .gown, 
+.kiddies{
+    display: none;
+    width: 80%;
+    height: 100vh;
+}
+
+
+img{
+    height: 100vh;
+}

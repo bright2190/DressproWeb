@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Dress Pro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="first">
+             <div class="logo" onclick="mainImage()" id="logo" >
+                <img class="logo_image" src="./img/dressprologocut.png" alt="Dress pro logo">
+                
+            </div> 
+            <ul>
+                
+                <li id="crop_top_link" onclick="cropTop()" >CROP TOP</li>
+                <li id="smocked_top_link"  onclick="smockedTop()">SMOCKED TOP</li>
+                <li id="off_shoulder_link" onclick="offShoulder()">OFF-SHOULDER</li>
+                <li id="gown_link" onclick="gown()">GOWN</li>
+                <li id="kiddies_link" onclick="kiddies()">KIDDIES</li>
+            </ul>
+        </div>
+        <div class="second" id="bg_image">
+            
+        </div>
+        <div class="crop_top" id="crop_top">
+            <marquee behavior="scroll" direction="">
+                <img src="./img/croptop1.jpg" alt="">
+                <img src="./img/croptop2.jpg" alt="">
+                <img src="./img/croptop3.jpg" alt="">
+            </marquee>
+        </div>
+        <div class="smocked_top" id="smocked_top">
+            <marquee behavior="scroll" direction="">
+                <img class="images" src="./img/smocked1.jpg" alt="">
+                <img class="images" src="./img/smocked2.jpg" alt="">
+                <img class="images" src="./img/smocked2.jpg" alt="">
+            </marquee>
+        </div>
+        <div class="off_shoulder" id="off_shoulder">
+            <marquee behavior="scroll" direction="">
+                <img class="images" src="./img/offshoulder1.jpg" alt="">
+                <img class="images" src="./img/offshoulder2.jpg" alt="">
+                <img class="images" src="./img/offshoulder3.jpg" alt="">
+       
+            </marquee>
+        </div>
+        <div class="gown" id="gown">
+            <marquee behavior="" direction="">
+                <img class="images" src="./img/gown1.jpg" alt="">
+                <img class="images" src="./img/gown2.jpg" alt="">
+                <img class="images" src="./img/gown3.jpg" alt="">
+            </marquee>
+        </div>
+        <div class="kiddies" id="kiddies">
+            <marquee behavior="scroll" direction="">
+                <img class="images" src="./img/bg3.jpg" alt="">
+                <img class="images" src="./img/bg5.jpg" alt="">
+                <img class="images" src="./img/offshoulder1.jpg" alt="">
+            </marquee>
+        </div>
+    </div>
+    
+    
+    <script src="./app.js"></script>  
+</body>
+</html>
